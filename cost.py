@@ -4,7 +4,7 @@ import numpy as np
 
 
 def load_model():
-    with open(r"C:\Users\atber\Downloads\saved_steps1.pkl", 'rb') as file:
+    with open(r"C:\Users\atber\Downloads\saved_steps2.pkl", 'rb') as file:
         data = pickle.load(file)
     return data
 
